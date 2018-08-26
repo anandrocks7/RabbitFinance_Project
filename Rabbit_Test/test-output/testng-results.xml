@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Rabbit Application Test Automation suite" duration-ms="52793" started-at="2018-08-26T17:30:49Z" finished-at="2018-08-26T17:31:41Z">
+    <groups>
+    </groups>
+    <test name="Rabbit Application Test Cases" duration-ms="52793" started-at="2018-08-26T17:30:49Z" finished-at="2018-08-26T17:31:41Z">
+      <class name="Test_Scripts.Test_RegistrationPage">
+        <test-method status="PASS" signature="steup()[pri:0, instance:Test_Scripts.Test_RegistrationPage@204f30ec]" name="steup" is-config="true" duration-ms="9436" started-at="2018-08-26T17:30:49Z" finished-at="2018-08-26T17:30:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- steup -->
+        <test-method status="PASS" signature="VerifRegistration()[pri:1, instance:Test_Scripts.Test_RegistrationPage@204f30ec]" name="VerifRegistration" duration-ms="8208" started-at="2018-08-26T17:30:58Z" finished-at="2018-08-26T17:31:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifRegistration -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:Test_Scripts.Test_RegistrationPage@204f30ec]" name="TearDown" is-config="true" duration-ms="1202" started-at="2018-08-26T17:31:06Z" finished-at="2018-08-26T17:31:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Test_Scripts.Test_RegistrationPage -->
+      <class name="Test_Scripts.Test_UpdateProfilePage">
+        <test-method status="PASS" signature="steup()[pri:0, instance:Test_Scripts.Test_UpdateProfilePage@e25b2fe]" name="steup" is-config="true" duration-ms="6258" started-at="2018-08-26T17:31:07Z" finished-at="2018-08-26T17:31:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- steup -->
+        <test-method status="PASS" signature="VerifyLogin()[pri:1, instance:Test_Scripts.Test_UpdateProfilePage@e25b2fe]" name="VerifyLogin" duration-ms="7772" started-at="2018-08-26T17:31:14Z" finished-at="2018-08-26T17:31:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method status="PASS" signature="VerifyNavigateMyDetailsPage()[pri:2, instance:Test_Scripts.Test_UpdateProfilePage@e25b2fe]" name="VerifyNavigateMyDetailsPage" duration-ms="8028" started-at="2018-08-26T17:31:21Z" finished-at="2018-08-26T17:31:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyNavigateMyDetailsPage -->
+        <test-method status="PASS" signature="VerifyUpdateAddressAndSave()[pri:3, instance:Test_Scripts.Test_UpdateProfilePage@e25b2fe]" name="VerifyUpdateAddressAndSave" duration-ms="10710" started-at="2018-08-26T17:31:30Z" finished-at="2018-08-26T17:31:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUpdateAddressAndSave -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:Test_Scripts.Test_UpdateProfilePage@e25b2fe]" name="TearDown" is-config="true" duration-ms="1078" started-at="2018-08-26T17:31:40Z" finished-at="2018-08-26T17:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Test_Scripts.Test_UpdateProfilePage -->
+    </test> <!-- Rabbit Application Test Cases -->
+  </suite> <!-- Rabbit Application Test Automation suite -->
+</testng-results>

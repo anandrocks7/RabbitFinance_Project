@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Rabbit Application Test Automation suite" verbose="1" >
+
+<listeners>
+		<listener class-name="ExtentReportListner.ExtentReporter" />
+	</listeners>
+
+
+  <test name="Rabbit Application Test Cases" >
+    <classes>
+      <class name="Test_Scripts.Test_RegistrationPage"/>
+      <class name="Test_Scripts.Test_UpdateProfilePage"/>
+     
+    </classes>
+ </test>
+</suite>
