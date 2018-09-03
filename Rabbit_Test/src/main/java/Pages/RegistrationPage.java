@@ -1,5 +1,7 @@
 package Pages;
 
+import java.util.Random;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -43,7 +45,10 @@ public RegistrationPage() {
 	 
 	 Lastname.sendKeys(prop.getProperty("LastName"));
 	 
-	 Email.sendKeys(prop.getProperty("Emailid"));
+	 Random rndNum = new Random();   
+	 System.out.println("RandomNum "+rndNum.nextInt(1000));
+	 
+	 Email.sendKeys(rndNum.nextInt(1000)+prop.getProperty("Emailid"));
 	 
 	 Phone.sendKeys(prop.getProperty("Phone"));
 	 Password.sendKeys(prop.getProperty("Password"));
