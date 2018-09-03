@@ -34,7 +34,7 @@ Right click on Testng.xml ,  Select “Run as”  Testng suite.
 Right click on Test scripts , then select Run as “ Testng Test”.
 
 
-•	Script for Function 1, Registration    : “Test_RegistrationPage” 
+•	Script for Function 1, Registration    : “Test_RegistrationPage”  ( if Test Fails please change emailid from Config file under config package )
 
 •	Script for Function 2, Update profile   “Test_UpdateProfilePage”
 
@@ -46,6 +46,8 @@ Default “Index.html”  TestNG reports is available under ‘Test-Output’ Fo
 
 Note: 
  -All Test Data(Values) are parameterized from Config package.  File ‘Config.properties’
+ 
+ 
  
 -Page Layer Classes: 1)  Rabbit_Test/src/main/java/Pages/ RegistrationPage.java
 
