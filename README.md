@@ -41,6 +41,9 @@ Right click on Test scripts , then select Run as “ Testng Test”.
 For Test Results: Extent Reports are configured:
 Extent.Html file is available under ‘Test-Output’ Folder. ( Configured with TestNg, Maven dependencies added for the same. ExtentReportListner package is added for the same as well.)
 
+To View Report:  Right click on Extent.html-> openwith-> WebBrowser
+
+
 Another Report:
 Default “Index.html”  TestNG reports is available under ‘Test-Output’ Folder as well.
 
