@@ -37,6 +37,7 @@ public RegistrationPage() {
 		
 	}
 	
+
  public String Registraion() {
 	 
 	 Register.click();
